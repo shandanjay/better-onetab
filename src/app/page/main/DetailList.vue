@@ -423,11 +423,13 @@ export default {
       const list = this.lists[this.rightClickedListIndex]
       const selectedItems = []
       list.tabs.forEach((tab, tabIndex) => {
-        if (tab.selected) selectedItems.push({
+        if (tab.selected) {
+          selectedItems.push({
           // for avoid to change old functions
-          listIndex: this.rightClickedListIndex,
-          tabIndex,
-        })
+            listIndex: this.rightClickedListIndex,
+            tabIndex,
+          })
+        }
       })
       return selectedItems
     },
@@ -561,6 +563,8 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@use "sass:math";
+
 .color-panel {
   width: 136px;
   height: 110px;
@@ -584,10 +588,10 @@ export default {
   position: absolute;
   display: inline-flex;
   width: 80%;
-  /deep/ .v-input__slot {
+  ::v-deep .v-input__slot {
     min-height: 32px !important;
   }
-  /deep/ input {
+  ::v-deep input {
     margin-top: 0 !important;
   }
 }
@@ -631,7 +635,7 @@ export default {
     .checkbox {
       margin-left: 20px;
       margin-top: 0;
-      padding-top: (40px - 24px) / 2;
+      padding-top: math.div(40px - 24px, 2);
     }
   }
 }
