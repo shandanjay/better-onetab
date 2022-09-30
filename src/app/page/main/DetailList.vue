@@ -652,7 +652,7 @@ export default {
   opacity: 0;
 }
 .list-item {
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   .checkbox {
     margin-left: 20px;
   }
