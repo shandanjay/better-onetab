@@ -10,15 +10,23 @@
   <v-list>
     <v-list-tile :to="'/app/list'" exact>
       <v-list-tile-action>
-        <v-icon>list</v-icon>
+        <v-icon>home</v-icon>
       </v-list-tile-action>
       <v-list-tile-content>
         {{ __('ui_tab_list') }}
       </v-list-tile-content>
     </v-list-tile>
+    <v-list-tile :to="'/app/tab-analytics'" exact>
+      <v-list-tile-action>
+        <v-icon>bar_chart</v-icon>
+      </v-list-tile-action>
+      <v-list-tile-content>
+        {{ __('ui_tab_list_stats') || 'Tab Analytics' }}
+      </v-list-tile-content>
+    </v-list-tile>
     <v-list-tile :to="'/app/list/pinned'" exact>
       <v-list-tile-action>
-        <v-icon>done</v-icon>
+        <v-icon>star</v-icon>
       </v-list-tile-action>
       <v-list-tile-content>
         {{ __('ui_pinned') }}
@@ -26,10 +34,10 @@
     </v-list-tile>
     <v-list-tile v-for="(lists, tag) in taggedList" :key="tag" :to="'/app/list/tag/' + tag">
       <v-list-tile-action>
-        <v-icon>label</v-icon>
+        <v-icon>{{ taggedListIcon[tag] || 'label' }}</v-icon>
       </v-list-tile-action>
       <v-list-tile-content>
-        {{ tag }}
+        {{ tag }} ({{ taggedList[tag].length }})
       </v-list-tile-content>
     </v-list-tile>
     <v-divider class="my-1"></v-divider>
@@ -108,7 +116,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['taggedList']),
+    ...mapGetters(['taggedList', 'taggedListIcon']),
   },
   props: {
     value: Boolean,
