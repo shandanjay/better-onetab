@@ -37,6 +37,19 @@ export default {
       })
       return Array.from(colors)
     },
+    taggedListIcon(state, getters) {
+      return {
+        Crypto: 'currency_bitcoin',
+        Music: 'music_note',
+        DL: 'arrow_circle_down',
+        Dev: 'logo_dev',
+        Phone: 'phone_android',
+        Shopping: 'shopping_bag',
+        ToOrder: 'warning_amber',
+        ProjectBetterOneTab: 'table_rows',
+        Next: 'next_week',
+      }
+    },
     taggedList(state, getters) {
       const tags = {}
       getters.indexedLists.forEach(list => {
