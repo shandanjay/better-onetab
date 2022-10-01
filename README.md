@@ -50,11 +50,17 @@ Build your own from following steps：
 
 ### Development
 
+⚠ Better-onetab working with Node v16.13.1
+
 0. Clone this repo
-0. Install dependencies (use `yarn` command)
-0. Auto reload (use `yarn dev` command)
-0. Click LOAD UNPACKED button and select ./dist path
-0. Build (use `yarn build` command)
+1. Install dependencies (use `yarn install` command)
+2. Auto reload & develop (use `yarn dev` command)
+3. Click LOAD UNPACKED button and select ./dist path in chrome extension panel
+4. Build (use `yarn build` command)
+
+#### Icons 
+
+Find list of icons which are available here https://jossef.github.io/material-design-icons-iconfont/
 
 ### Donation
 
