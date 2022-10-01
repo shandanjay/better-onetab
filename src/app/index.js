@@ -27,6 +27,7 @@ const app = new Vue({
   components: { App }
 })
 
+console.debug(`Debug mode is activated: ${DEBUG}`)
 if (DEBUG) {
   window.app = app
   import('webextension-polyfill').then(browser => {
