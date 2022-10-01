@@ -176,20 +176,20 @@ export const optionsList = [
     cate: cate.BEHAVIOUR,
     name: 'alertRemoveList',
     type: Boolean,
-    default: false,
+    default: true,
   },
   {
     cate: cate.BEHAVIOUR,
     name: 'excludeIllegalURL',
     type: Boolean,
-    default: true,
+    default: false,
     new: '1.3.6',
   },
   {
     cate: cate.BEHAVIOUR,
     name: 'removeDuplicate',
     type: Boolean,
-    default: false,
+    default: true,
     new: '1.3.6',
   },
   {
@@ -218,7 +218,7 @@ export const optionsList = [
     cate: cate.APPEARANCE,
     name: 'listsPerPage',
     type: String,
-    default: 10,
+    default: 15,
     items: [
       {
         value: 5,
@@ -231,6 +231,14 @@ export const optionsList = [
       {
         value: 15,
         label: 15,
+      },
+      {
+        value: 30,
+        label: 30,
+      },
+      {
+        value: 50,
+        label: 50,
       },
     ],
     new: '1.4.0',
