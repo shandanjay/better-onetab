@@ -18,6 +18,8 @@ const isDev = ({url}) => url.includes('stackshare.io')
 const getLists = () => get('lists')
   .then(({lists}) => {
 
+    console.log('browser.storage.local.get()', browser.storage.local.get())
+
     const listWithAutoTag = lists.map(e => {
       let shoppingCount = 0
       let musicCount = 0

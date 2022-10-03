@@ -317,6 +317,10 @@ export default {
       return this.$route.params.tag
     },
     listsToDisplay() {
+      console.log({
+        taggedList: this.taggedList,
+        tagInView: this.tagInView,
+      })
       return this.$route.name === 'pinnedList' ? this.pinnedList
         : this.tagInView ? this.taggedList[this.tagInView] || []
         : this.indexedLists
