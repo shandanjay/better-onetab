@@ -213,7 +213,7 @@
     "message": "list"
   },
   "ui_pinned": {
-    "message": "pinned"
+    "message": "Pinned"
   },
   "ui_duplicate": {
     "message": "Duplicate"
@@ -262,6 +262,9 @@
   },
   "ui_tab_list": {
     "message": "Tab Lists"
+  },
+  "ui_tab_list_stats": {
+    "message": "Tab Analytics"
   },
   "ui_export": {
     "message": "Export"

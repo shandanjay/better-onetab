@@ -2,7 +2,7 @@
 module.exports = {
   development: {
     __CLIENT_ID__: '530831729511-eq8apt6dhjimbmdli90jp2ple0lfmn3l.apps.googleusercontent.com',
-    __DEV_CSP__: process.env.MOZ ? '' : ' http://localhost:8098 chrome-extension://nhdogjmejiglipccpnnnanhbledajbpd',
+    __DEV_CSP__: process.env.MOZ ? '' : ' http://localhost:8098 chrome-extension://jjojkniipgcnddlangmpgehlmokajcne',
     __EXT_NAME__: 'better-onetab (dev)',
     __CONTENT_SCRIPTS_MATCHES__: process.env.MOZ ? '*://*/*' : 'http://127.0.0.1:3000/*',
   },

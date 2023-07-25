@@ -15,7 +15,7 @@ Vue.config.devtools = true
 Vue.use(VueClipboard)
 Vue.use(Vuetify, {
   theme: {
-    primary: colors.lightBlue,
+    primary: colors.deepPurple,
   },
 })
 
@@ -26,6 +26,8 @@ const app = new Vue({
   template: '<App/>',
   components: { App }
 })
+
+console.debug(`Debug mode is activated: ${DEBUG}`, app, Vue.config)
 
 if (DEBUG) {
   window.app = app

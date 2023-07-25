@@ -6,6 +6,7 @@ const SyncInfo = () => import(/* webpackChunkName: "main" */ '@/app/page/main/Sy
 const Options = () => import(/* webpackChunkName: "main" */ '@/app/page/main/Options')
 const About = () => import(/* webpackChunkName: "main" */ '@/app/page/main/About')
 const ImportExport = () => import(/* webpackChunkName: "main" */ '@/app/page/main/ImportExport')
+const TabAnalytics = () => import(/* webpackChunkName: "main" */ '@/app/page/main/TabAnalytics')
 const Search = () => import(/* webpackChunkName: "main" */ '@/app/page/main/Search')
 const DetailList = () => import(/* webpackChunkName: "main" */ '@/app/page/main/DetailList')
 
@@ -41,6 +42,11 @@ const router = new Router({
           path: 'import-export',
           component: ImportExport,
           name: 'import-export',
+        },
+        {
+          path: 'tab-analytics',
+          component: TabAnalytics,
+          name: 'tab-analytics',
         },
         {
           path: 'search',

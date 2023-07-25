@@ -1,7 +1,7 @@
 <template>
 <v-toolbar app clipped-left :color="nightmode ? null : 'primary'" :flat="flat" v-scroll="onScroll">
   <v-toolbar-side-icon dark @click="switchDrawer"></v-toolbar-side-icon>
-  <v-toolbar-title class="white--text">Better OneTab</v-toolbar-title>
+  <v-toolbar-title class="white--text">Better OneTab +</v-toolbar-title>
   <v-spacer></v-spacer>
   <search-form v-if="!opts.disableSearch"></search-form>
   <v-spacer></v-spacer>
