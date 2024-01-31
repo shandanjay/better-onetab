@@ -1,0 +1,715 @@
+repo_name: shandanjay/better-onetab
+report_id: 8da321f012a1b18587fce0323d0d85ca
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T14:26:30+00:00'
+requested_by: revagomes
+provider: github
+branch: main
+detected_tools_count: 50
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shandanjay/better-onetab
+  detection_source: Repo Metadata
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2018-04-30 13:17:50.000000000 Z
+- name: Stylus
+  description: Expressive, robust, feature-rich CSS language built for nodejs
+  website_url: http://stylus-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1172/stylus.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-01-24 18:11:32.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2018-04-30 13:17:50.000000000 Z
+- name: Vuetify
+  description: Material Component Framework for VueJS 2
+  website_url: https://vuetifyjs.com/
+  version: 1.5.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/6163/PzNbCwXH.jpg
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: vuex
+  description: Centralized State Management for Vue.js.
+  website_url: https://vuex.vuejs.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/6705/6128107.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2018-09-04 03:31:22.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-01-22 16:44:41.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: ".babelrc"
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:23:45.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: WangJie
+  last_updated_on: 2019-08-08 06:16:14.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2018-04-30 13:17:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shandanjay/better-onetab
+  detection_source: Repo Metadata
+- name: Sentry
+  description: 'See performance issues, fix errors faster, and optimize code health. '
+  website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-07-25 07:23:52.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.39.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-08-12 07:38:08.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: WangJie
+  last_updated_on: 2018-04-30 13:17:50.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2018-04-30 13:17:50.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.15
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2018-09-06 11:10:57.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-07-25 07:23:52.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:23:45.000000000 Z
+- name: "@babel/plugin-syntax-dynamic-import"
+  description: Allow parsing of import
+  package_url: https://www.npmjs.com/@babel/plugin-syntax-dynamic-import
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16080/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:23:45.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-07-25 07:23:52.000000000 Z
+- name: "@sentry/browser"
+  description: Official Sentry SDK for browsers
+  package_url: https://www.npmjs.com/@sentry/browser
+  version: 5.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18385/default_3918a37cf2f76449e061a2c79fb02113faa1391a.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-07-25 07:23:52.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 8.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:23:45.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: babel-plugin-lodash
+  description: Modular Lodash builds without the hassle
+  package_url: https://www.npmjs.com/babel-plugin-lodash
+  version: 3.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16379/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:23:45.000000000 Z
+- name: clean-webpack-plugin
+  description: A webpack plugin to remove/clean your build folder
+  package_url: https://www.npmjs.com/clean-webpack-plugin
+  version: 0.1.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16068/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-08-12 07:38:08.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-08-12 07:38:08.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-07-25 07:23:52.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 5.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:23:45.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 1.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: html-loader
+  description: Html loader module for webpack
+  package_url: https://www.npmjs.com/html-loader
+  version: 0.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16055/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-08-12 07:38:08.000000000 Z
+- name: markdown-loader
+  description: Markdown-loader for webpack
+  package_url: https://www.npmjs.com/markdown-loader
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17121/default_cd46073ead3b39efb82d67472bd530a8fbcbda52.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-07-25 07:23:52.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2018-04-30 13:17:50.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+  - name: Denial of Service in node-sass
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-9v62-24cr-58cx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 7.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: socket.io-client
+  description: "[![Build Status]"
+  package_url: https://www.npmjs.com/socket.io-client
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16164/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-07-25 07:23:52.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 0.23.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: stylus-loader
+  description: Stylus loader for webpack
+  package_url: https://www.npmjs.com/stylus-loader
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16232/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: uglifyjs-webpack-plugin
+  description: UglifyJS plugin for webpack
+  package_url: https://www.npmjs.com/uglifyjs-webpack-plugin
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15953/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-08-12 07:38:08.000000000 Z
+- name: url-loader
+  description: A loader for webpack which transforms files into base64 URIs
+  package_url: https://www.npmjs.com/url-loader
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2018-04-30 13:17:50.000000000 Z
+- name: vue-loader
+  description: "&gt; webpack loader for Vue Single-File Components"
+  package_url: https://www.npmjs.com/vue-loader
+  version: 15.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15901/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2018-10-21 15:06:16.000000000 Z
+- name: vue-style-loader
+  description: Vue.js style loader module for webpack
+  package_url: https://www.npmjs.com/vue-style-loader
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16024/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2018-10-21 15:06:16.000000000 Z
+- name: vuedraggable
+  description: Draggable component for vue
+  package_url: https://www.npmjs.com/vuedraggable
+  version: 2.23.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17468/default_911633508f32a5d5016c37ab38144cd661ceb682.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2018-05-13 14:15:56.000000000 Z
+- name: vuetify-loader
+  description: '&lt;p align="center"&gt; &lt;a href="https://www.patreon.com/kaelwd"&gt;
+    &lt;img src="https://c5.patreon.com/external/logo/become_a_patron_button.png"'
+  package_url: https://www.npmjs.com/vuetify-loader
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18444/default_31e3dc8ee5066945286d4e7345d470ac3863ee5a.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-04-06 17:41:23.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 3.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-08-12 07:38:08.000000000 Z
+- name: webpack-merge
+  description: Variant of merge that's useful for webpack configuration
+  package_url: https://www.npmjs.com/webpack-merge
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15925/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/shandanjay/better-onetab/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: WangJie
+  last_updated_on: 2019-08-12 07:38:08.000000000 Z
